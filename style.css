@@ -1,0 +1,134 @@
+body {
+  font-size: large;
+
+  background: linear-gradient(skyblue, white, skyblue);
+}
+.header-btn {
+  position: relative;
+  margin-bottom: 30px;
+
+  padding: 10px;
+}
+
+.btn {
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: 350;
+  cursor: pointer;
+  background-color: rgb(109, 196, 33);
+  border-color: aliceblue;
+}
+.end-game {
+  position: absolute;
+  right: 0;
+  background-color: rgb(219, 10, 10);
+  border-color: rgb(241, 170, 170);
+}
+.pic {
+  display: flex;
+  justify-content: center;
+
+  .dicepic {
+    height: 5rem;
+    border-radius: 10px;
+  }
+}
+.p1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(232, 167, 27);
+}
+.p2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(192, 46, 6);
+}
+.p0 {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.player2 {
+  background-color: rgb(163, 241, 241);
+  padding: 50px;
+}
+.player1 {
+  background-color: rgb(162, 208, 248);
+  padding: 50px;
+}
+.btncheck {
+  width: 100px;
+  font-size: larger;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 130px;
+  margin-top: 30px;
+  transform: translate(500%);
+}
+@media (max-width: 700px) {
+  .btncheck {
+    width: 100px;
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 130px;
+    margin-top: 30px;
+    transform: translate(120%);
+  }
+}
+.btnroll {
+  height: 50px;
+  width: 130px;
+  font-size: larger;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: translateX(500%);
+}
+@media (max-width: 700px) {
+  .btnroll {
+    height: 50px;
+    width: 130px;
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateX(120%);
+  }
+}
+.score1 {
+  color: red;
+  font-size: 30px;
+  padding: 5px;
+}
+.highscore1 {
+  color: green;
+  font-size: 30px;
+  padding: 5px;
+}
+.score2 {
+  color: red;
+  font-size: 30px;
+  padding: 5px;
+}
+.highscore2 {
+  color: green;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.bg {
+  background-color: rgb(255, 0, 191);
+}
+
+.hide {
+  display: none;
+}
